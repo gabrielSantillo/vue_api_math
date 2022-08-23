@@ -15,6 +15,7 @@ import cookies from "vue-cookies"
 math.herokuapp.com/api/random`
                 }).then((response) => {
                   cookies.set(`answer`, response[`data`][`answer`]);
+                  cookies.set(`expression`, response[`data`][`expression`])
                   this.$router.push(`/answer`)
                 }).catch((error) => {
                     error
