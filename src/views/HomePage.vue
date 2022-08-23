@@ -1,17 +1,14 @@
 <template>
-    <div>
-        <expression-button></expression-button>
-    </div>
+  <div>
+    <expression-button></expression-button>
+  </div>
 </template>
 
 <script>
-import ExpressionButton from '@/components/ExpressionButton.vue'
-    export default {
+import ExpressionButton from "@/components/ExpressionButton.vue";
+export default {
   components: { ExpressionButton },
-        
-    }
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
